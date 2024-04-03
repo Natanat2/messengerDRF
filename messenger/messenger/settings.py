@@ -141,3 +141,5 @@ LOGOUT_REDIRECT_URL = '/chat/'
 
 ACCOUNT_FORMS = {"signup": "accounts.forms.CustomSignupForm"}
 
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'

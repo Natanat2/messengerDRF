@@ -1,11 +1,12 @@
 from allauth.account.views import logout, LogoutView
-from django.http import HttpResponseRedirect
+
 from django.shortcuts import render
 from requests import Response
-from rest_framework import viewsets
+from rest_framework import viewsets, status
 from rest_framework import permissions
 
 from .serializers import *
+
 
 
 class MessageViewSet(viewsets.ModelViewSet):
@@ -79,3 +80,5 @@ def private_user_page(request):
 def logout_view(request):
     logout_view = LogoutView.as_view(next_page = '/chat/')
     return logout_view(request)
+
+

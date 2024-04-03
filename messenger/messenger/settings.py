@@ -28,9 +28,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
     'django.contrib.flatpages',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
     'fpages',
     'accounts',
-    'chat'
+    'chat',
+    'rest_framework',
 ]
 
 SITE_ID =1
@@ -44,6 +48,7 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware',
+    'allauth.account.middleware.AccountMiddleware',
 ]
 
 ROOT_URLCONF = 'messenger.urls'
@@ -118,16 +123,21 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 
-# Default primary key field type
-# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATICFILES_DIRS = [
     BASE_DIR / "static"
 ]
+
+ACCOUNT_LOGOUT_REDIRECT_URL = '/'
+
+LOGIN_REDIRECT_URL = "/chat/"
+
+LOGOUT_REDIRECT_URL = '/chat/'
 
 ACCOUNT_FORMS = {"signup": "accounts.forms.CustomSignupForm"}
 

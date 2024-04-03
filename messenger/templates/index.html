@@ -1,0 +1,17 @@
+{% extends 'flatpages/default.html' %}
+
+{% block content %}
+    <h1>Список чатов</h1>
+    <ul>
+    {% for chat in chats %}
+        <li>{{ chat.name }}</li>
+    {% endfor %}
+    </ul>
+
+    <h1>Список сообщений</h1>
+    <ul>
+    {% for message in messages %}
+        <li>{{ message.text }}</li>
+    {% endfor %}
+    </ul>
+{% endblock %}

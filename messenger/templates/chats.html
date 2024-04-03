@@ -1,0 +1,42 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+Список чатов
+{% endblock title %}
+
+{% block content %}
+   <h1>Список чатов</h1>
+
+   <a href="{% url 'chat_create' %}">Добавить новый чат</a>
+
+   {% if chats %}
+       <table>
+           <tr>
+               <td>Название</td>
+               <td>Пользователи</td>
+               <td>Сообщения</td>
+               <td>Действия</td>
+           </tr>
+
+           {% for chat in chats %}
+           <tr>
+               <td>{{ chat.name }}</td>
+               <td>
+                   <ul>
+                   {% for user in chat.users.all %}
+                       <li>{{ user.username }}</li>
+                   {% endfor %}
+                   </ul>
+               </td>
+               <td>{{ chat.messages.count }}</td>
+               <td>
+                   <a href="{% url 'chat_edit' pk=chat.id %}">Изменить</a>
+                   <a href="{% url 'chat_delete' pk=chat.id %}">Удалить</a>
+               </td>
+           </tr>
+           {% endfor %}
+       </table>
+   {% else %}
+       <h2>Чатов нет!</h2>
+   {% endif %}
+{% endblock content %}

@@ -29,6 +29,8 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'django.contrib.flatpages',
     'fpages',
+    'accounts',
+    'chat'
 ]
 
 SITE_ID =1

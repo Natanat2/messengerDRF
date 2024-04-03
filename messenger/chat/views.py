@@ -1,12 +1,10 @@
 from allauth.account.views import logout, LogoutView
-
 from django.shortcuts import render
 from requests import Response
 from rest_framework import viewsets, status
 from rest_framework import permissions
-
 from .serializers import *
-
+from .models import Chat, Message
 
 
 class MessageViewSet(viewsets.ModelViewSet):
@@ -63,9 +61,6 @@ def index(request):
     return render(request, 'index.html', context)
 
 
-from .models import Chat, Message  # Подключаем модели, которые вам нужны
-
-
 def private_user_page(request):
     user_chats = Chat.objects.filter(users = request.user)
     user_messages = Message.objects.filter(user = request.user)
@@ -74,11 +69,9 @@ def private_user_page(request):
         'user_chats': user_chats,
         'user_messages': user_messages
     }
-    return render(request, 'private_user_page.html', context)
+    return render(request, 'profile.html', context)
 
 
 def logout_view(request):
     logout_view = LogoutView.as_view(next_page = '/chat/')
     return logout_view(request)
-
-

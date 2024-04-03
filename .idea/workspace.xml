@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41d0edce-8bfa-4470-87d0-a26366530e35" name="Changes" comment="all done">
-      <change afterPath="$PROJECT_DIR$/messenger/accounts/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messenger/accounts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/messenger/accounts/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messenger/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/messenger/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messenger/chat/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/messenger/chat/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messenger/chat/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/messenger/chat/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messenger/messenger/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/messenger/messenger/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="41d0edce-8bfa-4470-87d0-a26366530e35" name="Changes" comment="all done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,7 +129,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712148054215</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="all done">
+      <option name="closed" value="true" />
+      <created>1712167033811</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1712167033811</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41d0edce-8bfa-4470-87d0-a26366530e35" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/messenger/accounts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messenger/accounts/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messenger/accounts/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messenger/accounts/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messenger/accounts/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messenger/accounts/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messenger/accounts/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messenger/chat/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messenger/chat/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messenger/chat/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messenger/chat/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messenger/chat/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messenger/chat/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/messenger/chat/views.py" afterDir="false" />
+    <list default="true" id="41d0edce-8bfa-4470-87d0-a26366530e35" name="Changes" comment="migrate models">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messenger/messenger/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/messenger/messenger/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,11 +34,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/natan/PycharmProjects/messengerDRF/messenger"
+    "last_opened_file_path": "C:/Users/natan/PycharmProjects/messengerDRF/messenger/chat"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\natan\PycharmProjects\messengerDRF\messenger\chat" />
       <recent name="C:\Users\natan\PycharmProjects\messengerDRF\messenger" />
     </key>
   </component>
@@ -95,12 +83,29 @@
       <option name="project" value="LOCAL" />
       <updated>1712145934208</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1712146132233</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712146132233</updated>
+    </task>
+    <task id="LOCAL-00005" summary="migrate models">
+      <option name="closed" value="true" />
+      <created>1712146251333</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712146251333</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="migrate models" />
+    <option name="LAST_COMMIT_MESSAGE" value="migrate models" />
   </component>
 </project>

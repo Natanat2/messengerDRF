@@ -129,6 +129,8 @@ STATICFILES_DIRS = [
     BASE_DIR / "static"
 ]
 
+ACCOUNT_FORMS = {"signup": "accounts.forms.CustomSignupForm"}
+
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_UNIQUE_EMAIL = True
 ACCOUNT_USERNAME_REQUIRED = False

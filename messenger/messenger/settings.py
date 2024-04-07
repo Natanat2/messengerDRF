@@ -132,7 +132,12 @@ LOGIN_REDIRECT_URL = "/chat/"
 
 LOGOUT_REDIRECT_URL = '/chat/'
 
-ACCOUNT_FORMS = {"signup": "accounts.forms.CustomSignupForm"}
 
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
+
+ACCOUNT_EMAIL_REQUIRED = True
+ACCOUNT_UNIQUE_EMAIL = True
+ACCOUNT_USERNAME_REQUIRED = True
+ACCOUNT_AUTHENTICATION_METHOD = 'email'
+ACCOUNT_EMAIL_VERIFICATION = 'none'

@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41d0edce-8bfa-4470-87d0-a26366530e35" name="Changes" comment="clean code">
-      <change afterPath="$PROJECT_DIR$/messenger/media/images/profile/557363359.jpeg" afterDir="false" />
+    <list default="true" id="41d0edce-8bfa-4470-87d0-a26366530e35" name="Changes" comment="clean code 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/messenger/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/messenger/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messenger/messenger/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/messenger/messenger/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,11 +35,12 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/natan/PycharmProjects/messengerDRF/messenger/accounts&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/natan/PycharmProjects/messengerDRF/messenger/templates&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\natan\PycharmProjects\messengerDRF\messenger\templates" />
       <recent name="C:\Users\natan\PycharmProjects\messengerDRF\messenger\accounts" />
       <recent name="C:\Users\natan\PycharmProjects\messengerDRF\messenger\chat" />
       <recent name="C:\Users\natan\PycharmProjects\messengerDRF\messenger" />
@@ -181,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712488420927</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="clean code 2">
+      <option name="closed" value="true" />
+      <created>1712490662723</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1712490662723</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,6 +216,7 @@
     <MESSAGE value="add my version" />
     <MESSAGE value="fix acc regist" />
     <MESSAGE value="clean code" />
-    <option name="LAST_COMMIT_MESSAGE" value="clean code" />
+    <MESSAGE value="clean code 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="clean code 2" />
   </component>
 </project>

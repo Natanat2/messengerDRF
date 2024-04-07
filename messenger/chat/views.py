@@ -51,17 +51,10 @@ class UserProfileViewSet(viewsets.ModelViewSet):
 
 
 def index(request):
-    chats = Chat.objects.all()
-    messages = Message.objects.all()
-
-    context = {
-        'chats': chats,
-        'messages': messages,
-    }
-    return render(request, 'index.html', context)
+    return render(request, 'index.html')
 
 
-def private_user_page(request):
+def profile(request):
     user_chats = Chat.objects.filter(users = request.user)
     user_messages = Message.objects.filter(user = request.user)
 
@@ -70,8 +63,3 @@ def private_user_page(request):
         'user_messages': user_messages
     }
     return render(request, 'profile.html', context)
-
-
-def logout_view(request):
-    logout_view = LogoutView.as_view(next_page = '/chat/')
-    return logout_view(request)

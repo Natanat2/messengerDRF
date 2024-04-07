@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="41d0edce-8bfa-4470-87d0-a26366530e35" name="Changes" comment="add my version">
+    <list default="true" id="41d0edce-8bfa-4470-87d0-a26366530e35" name="Changes" comment="fix acc regist">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messenger/accounts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/messenger/accounts/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messenger/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/messenger/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messenger/messenger/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/messenger/messenger/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messenger/chat/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/messenger/chat/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messenger/chat/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/messenger/chat/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712486568545</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="fix acc regist">
+      <option name="closed" value="true" />
+      <created>1712487597782</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1712487597782</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -190,6 +197,7 @@
     <MESSAGE value="change profile" />
     <MESSAGE value="add avatar 1" />
     <MESSAGE value="add my version" />
-    <option name="LAST_COMMIT_MESSAGE" value="add my version" />
+    <MESSAGE value="fix acc regist" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix acc regist" />
   </component>
 </project>
